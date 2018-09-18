@@ -10,8 +10,8 @@ nota2 = float(input('Digite a segunda nota: '))
 media = (nota1+nota2)/2
 
 if media == 10:
-    print('Média {:.2f} - "Aprovado com Distinção"'.format(media))
+    print('Média {:.2f} --> "Aprovado com Distinção"'.format(media))
 elif media >= 7:
-    print('Média {:.2f} - "Aprovado"'.format(media))
+    print('Média {:.2f} --> "Aprovado"'.format(media))
 else:
-    print('Média {:.2f} - "Reprovado"'.format(media))
+    print('Média {:.2f} --> "Reprovado"'.format(media))
