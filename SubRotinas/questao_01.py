@@ -9,8 +9,8 @@ def total (n1, n2, n3):
 
 #Programa
 
-n1 = int(input('Digite o primeiro número: '))
-n2 = int(input('Digite o quarto número: '))
-n3 = int(input('Digite o terceiro número: '))
+n10 = int(input('Digite o primeiro número: '))
+n20 = int(input('Digite o quarto número: '))
+n30 = int(input('Digite o terceiro número: '))
 
-print('A soma dos 3 números = {}'.format(total(n1,n2,n3)))
+print('A soma dos 3 números = {}'.format(total(n10,n20,n30)))
