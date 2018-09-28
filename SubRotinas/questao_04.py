@@ -31,7 +31,7 @@ def idade (dia, mes, ano):
         mesDig = 'Dezembro'
     else:
         mesDig = 'None'
-    return '{} de {} de {}'.format(dia,mesDig,ano)
+    return ('{} de {} de {}'.format(dia,mesDig,ano))
 
 
 #programa
