@@ -7,14 +7,15 @@ ou 'Valor nulo', se o argumento for 0.'''
 def negativoPositivo (n1):
 
     if n1 > 0:
-        print('Valor Positivo')
+        print('Valor Positivo {}'.format(n1))
     elif n1 < 0:
-        print('Valor Negativo')
+        print('Valor Negativo  {}'.format(n1))
     else:
         print('Valor Nulo')
-    return n1
+
  #Programa
 
 n2 = int(input('Digite um Número: '))
 
-print(negativoPositivo(n2))
+negativoPositivo(n2)
+
