@@ -4,7 +4,7 @@ maior = 0
 menor = 1000
 for i in range (1,6):
     n = int(input('Digite um número: '))
-    if n>maior:
+    if n > maior:
         maior = n
     if n < menor:
         menor = n
