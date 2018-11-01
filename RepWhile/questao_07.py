@@ -6,7 +6,7 @@ O programa deve encerrar se o usuário digitar o valor 0. Adicionalmente, faça 
 
 def ehPar ():
     x = 1
-    while True: #Ou (x < 10) por exemplo pra pedir 9 números.
+    while True: #Ou (x < 10) por exemplo pra pedir 9 números
         n1 = int(input('Digite um número: '))
         if n1 == 0:
             break
