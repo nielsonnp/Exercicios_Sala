@@ -44,7 +44,7 @@ notas(n1,n2)'''
 desse número, caso seja negativo. A função deverá imprimir o resultado da execução.'''
 
 #função
-def dobro (n):
+def dobroTriplo (n):
 
     if n > 0:
         print(n*2)
@@ -56,4 +56,4 @@ def dobro (n):
 #Programa
 n1 = int(input('Digite um número: '))
 
-dobro(n1)
+dobroTriplo(n1)
