@@ -30,14 +30,14 @@ def idade (dia, mes, ano):
     elif mes == '12':
         mesDig = 'Dezembro'
     else:
-        mesDig = 'None'
-    return ('{} de {} de {}'.format(dia,mesDig,ano))
+        return 'None'
+    return ('Você nasceu em {} de {} de {}'.format(dia,mesDig,ano))
 
 
 #programa
 
 dd = int(input('O dia em que você nasceu: '))
-mm = str(input('O mês em que você nasceu: '))
+mm = input('O mês em que você nasceu: ')
 aa = int(input('O ano em que você nasceu: '))
 
 print(idade(dd,mm,aa))
