@@ -5,7 +5,7 @@ para incluir o imposto sobre vendas. Lembrar que o imposto está expresso em por
 
 #função
 
-def somaImposto (taxaImposto, custo):
+def somaImposto (valorCusto,porcenImposto):
 
     calculoImposto = (valorCusto * porcenImposto) / 100
     taxaImposto = (valorCusto+calculoImposto)
@@ -13,10 +13,10 @@ def somaImposto (taxaImposto, custo):
 
 #programa
 
-valorCusto = float(input('Digite o valor de custo: '))
-porcenImposto = float(input('Digite o valor da % do imposto: '))
+vC = float(input('Digite o valor de custo: '))
+pI = float(input('Digite o valor da % do imposto: '))
 
-print(somaImposto(valorCusto,porcenImposto))
+print(somaImposto(vC,pI))
 
 
 
