@@ -3,17 +3,17 @@ O programa deve encerrar se o usuário digitar o valor 0. Adicionalmente, faça 
  do número em uma função, chamada ehPar(valor) que retorna um valor booleano
  (True, se o valor for par; False, se o valor for ímpar).'''
 
+def ehPar(valor):
+    if valor % 2 == 0:
+        return True
+    else:
+        return False
 
-def ehPar ():
-    x = 1
-    while True: #Ou (x < 10) por exemplo pra pedir 9 números
-        n1 = int(input('Digite um número: '))
-        if n1 == 0:
-            break
-        elif n1 % 2 == 0:
-            print(True)
-        else:
-            print(False)
-        x = x+1
+x = 0
+while True:
+    n = int(input('Digite um número: '))
+    if n == 0:
+        break
+    x = x + 1
+    print(ehPar(n))
 
-ehPar()
